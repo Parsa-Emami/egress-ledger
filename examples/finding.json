@@ -1,0 +1,18 @@
+{
+  "approved": [
+    {
+      "workload": "demo/web",
+      "destination": "demo/dns",
+      "port": 53,
+      "protocol": "UDP"
+    }
+  ],
+  "observed": [
+    {
+      "workload": "demo/web",
+      "destination": "demo/uncatalogued",
+      "port": 443,
+      "protocol": "TCP"
+    }
+  ]
+}
